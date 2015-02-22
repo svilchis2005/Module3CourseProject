@@ -29,6 +29,8 @@ Id
       
 **General description of the last and following 66 variables**
 
+In the name of each of the variables, there is one or more of the following words, whose meaning is described herein.
+
 - '**t**': Refers to time domain signals
 - '**f**': Refers to frequency domain signals (Fast Fourier Transform (FFT) was applied)
 - '**Acc**': Refers to accelerometer 3-axial signals
