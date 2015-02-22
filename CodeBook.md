@@ -1,4 +1,5 @@
 DATA DICTIONARY -MyTidyData.txt
+===============================
 
 Activity
   
@@ -25,25 +26,29 @@ Id
       - ...
       - 30: subject # 30
       
-** General description of the last and following 66 variables**
+      
+**General description of the last and following 66 variables**
 
-- 't': time domain signals
-- 'f': frequency domain signals (Fast Fourier Transform (FFT) was applied)
-- 'Acc': accelerometer 3-axial signals
-- 'Gyro': gyroscope 3-axial signals
-- 'Body': body signals
-- 'Gravity': gravity signals
-- 'Jerk': Jerk signals (body linear acceleration and angular velocity were derived in time)
-- 'Mag': Euclidean norm
-- '-X': signals in the X direction
-- '-Y': signals in the Y direction
-- '-Z': signals in the Z direction
+- 't': Refers to time domain signals
+- 'f': Refers to frequency domain signals (Fast Fourier Transform (FFT) was applied)
+- 'Acc': Refers to accelerometer 3-axial signals
+- 'Gyro': Refers to gyroscope 3-axial signals
+- 'Body': Refers to body signals
+- 'Gravity': Refers to gravity signals
+- 'Jerk': Refers to Jerk signals (body linear acceleration and angular velocity were derived in time)
+- 'Mag': Refers to Euclidean norm
+- '-X': Refers to signals in the X direction
+- '-Y': Refers to signals in the Y direction
+- '-Z': Refers to signals in the Z direction
 - '-mean()': mean of the measurement
 - '-std()': standard deviation of the measurement
 
 Type: numeric
 
-The information contained in each of the following 66 variables, is the **mean** of the original measurements, calculated by group of *Activity + Id*. For more detailed on how the grouping was performed and on how the mean was calculated, please refer to the **ReadMe.md** file in this repo.  
+The information contained in each of the following 66 variables, is the **mean** of the original measurements, calculated by group of *Activity + Id*. For more details on how the grouping was performed and on how the mean was calculated, please refer to the **ReadMe.md** file in this repo.  
+
+**Notes**
+- It is important to mention that decimal precision is lost from the write.table() to the read.table(), but in the very last decimal, nothing to worry about.
 
 tBodyAcc-mean()-X
 
@@ -177,6 +182,5 @@ fBodyBodyGyroJerkMag-mean()
 
 fBodyBodyGyroJerkMag-std()
 
-**Notes**
-- It is important to mention that decimal precision is lost from the write.table() to the read.table(), but in the very last decimal, nothing to worry about.
+
   
