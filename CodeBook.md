@@ -47,7 +47,7 @@ In the name of each of the variables, there is one or more of the following word
 
 Type: numeric
 
-The information contained in each of the following 66 variables, is the **mean** of the original measurements, calculated by group of *Activity + Id*. For more details on how the grouping was performed and on how the mean was calculated, please refer to the **ReadMe.md** file in this repo.  
+The information contained in each of the following 66 variables, is the **mean** of the original measurements, calculated by group of *Activity + Id*. For more details on how the grouping was performed and on how the mean was calculated, please refer to the **ReadMe.md** file in this repo. The original data sets contained 561 measurements, only those refering to the mean and standard deviation of the measurements were selected (those who have the words "-mean()" and "-std()" in their name).
 
 tBodyAcc-mean()-X
 
