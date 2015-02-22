@@ -73,7 +73,7 @@ The data should be available in the working directory in an unzipped UCI HAR Dat
                       \\test
 
 
-The script called "run_analysis.R" contains all the R functions needed to carry out the tasks of the project described above in the following sequence: 
+The script called **"run_analysis.R"** contains all the R functions and their parameters needed to carry out the tasks of the project described above; the script can be executed in one step by highlighting the whole document and clicking "RUN". The sequence of steps is as follows: 
 
 1. Reading the files assuming all is in the working directory as described above.  
 
@@ -82,7 +82,7 @@ The script called "run_analysis.R" contains all the R functions needed to carry 
 	- Identifying how many records each subject/activity has  
 	- Identifying the subjects that participated in the training/test phase 
 	- Making sure all activities where performed in the training/test phase
-	- Checking that the values in the "X_train" and "X_test"tables are numeric
+	- Checking that the values in the "X_train" and "X_test" tables are numeric
 
 3. Merging the training and test sets to create one data set, carrying out the following subtasks:
 	- Naming the columns with the "subject id" and "activity" information before merging the data to ease the process
@@ -122,7 +122,6 @@ For each record of the final tidy data set "MyTidyData.txt", it is provided:
 - The activity label. 
 - An identifier of the subject who carried out the experiment.
 - The mean of 66 measurements (variables) on the mean and standard deviation for each measurement.
-	
 
 Final notes on the project
 ===========================
@@ -143,7 +142,7 @@ Final notes on the project
 
 License:
 ========
-Use of this R code **"run_analysis.R"** must be acknowledged by referencing the author's work and the following publications. 
+Use of this R code **"run_analysis.R"** must be acknowledged by referencing the *author's work* and the following publications. 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
